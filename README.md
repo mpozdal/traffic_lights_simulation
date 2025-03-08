@@ -29,8 +29,9 @@ The traffic simulation system models the flow of traffic at an intersection with
 
 ## To make a simulation
 ```bash
-localhost:8080/api/traffic/processCommands?filePath=${filepath}/commands.json
+POST localhost:8080/api/traffic/processCommands
 ```
+JSON Input Format in request body
 
 ## JSON Input Format
 
